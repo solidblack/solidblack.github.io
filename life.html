@@ -1,0 +1,18 @@
+---
+layout: page
+title: 生活 
+header: 生活点滴
+group: navigation
+---
+{% include JB/setup %}
+<div class = "card">
+	<h2 class="hat_title">我的生活</h2>
+
+  {% for tag in site.tags %} 
+  <ul>
+    {% assign life_list = tag[1] %}  
+    {% include JB/life_list %}
+  </ul>
+{% endfor %}
+</div>
+

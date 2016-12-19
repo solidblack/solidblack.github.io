@@ -1,0 +1,18 @@
+---
+layout: page
+title: 工作 
+header: 工作相关
+group: navigation
+---
+{% include JB/setup %}
+<div class = "card">
+	<h2 class="hat_title">我的工作</h2>
+
+  {% for tag in site.tags %} 
+  <ul>
+    {% assign work_list = tag[1] %}  
+    {% include JB/work_list %}
+  </ul>
+{% endfor %}
+</div>
+
