@@ -5,30 +5,30 @@ h1{
 .fa.fa-arrow-circle-right{
     margin-right: 15px;
 }
- 
+
 /*navbar bgcolor -- float*/
-.navbar .navbar-inner{ 
+.navbar .navbar-inner{
   background-color: #00a9a9;
   }
 
-.navbar .nav {  
+.navbar .nav {
   float: right; }
 
 
 
 /*page container -- card style -- */
-.nav-narrow{  
+.nav-narrow{
   margin: 0 auto;
   max-width: 900px;}
 
 
 
-.card { 
+.card {
   max-width: 900px;
-  background:#fff; 
+  background:#fff;
   }
 
-.container-narrow > hr { 
+.container-narrow > hr {
   margin: 30px 0; }
 
 .read_more {
@@ -40,26 +40,26 @@ h1{
 
 /* posts index */
 
-.post > h3.title { 
+.post > h3.title {
   position: relative;
   padding-top: 10px; }
 
-.post > h3.title span.date {  
+.post > h3.title span.date {
   position: absolute;
   right: 0;
   font-size: 0.9em; }
 
-.post > .more { 
+.post > .more {
   margin: 10px 0;
   text-align: left; }
 
 /* post-full*/
-.post-full .date { 
+.post-full .date {
   margin-bottom: 20px;
   font-weight: bold; }
 
 /* tag_box */
-.tag_box { 
+.tag_box {
   list-style: none;
   margin: 0;
   overflow: hidden; }
@@ -70,7 +70,7 @@ h1{
 .tag_box li i {
   opacity: 0.9; }
 
-.tag_box.inline li { 
+.tag_box.inline li {
   float: left; }
 
 .tag_box a {
@@ -110,4 +110,26 @@ h1{
 }
 .page.card{
     background:url("img/card_bg.jpg") repeat top center;
+}
+
+
+/**自定义*/
+.container-narrow{
+    margin-top: 50px;
+}
+
+.navbar .navbar-inner{
+  background-color: #444E57;
+  }
+
+ .date_label {
+      background-color: #444E57;
+  }
+
+.date_label::before{
+    border: 1.5em solid #444E57;
+}
+
+.date_label::after{
+    border-right: 1em solid #444E57;
 }
